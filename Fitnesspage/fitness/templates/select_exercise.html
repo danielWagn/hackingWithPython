@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block script %}
+  <link rel="stylesheet" type="text/css" href="../static/src/base.css">
+{% endblock %}
+
+{% block title %}
+  Exercise in Detail
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="target-exercise-container">
+    <div class="select-exercise-title">
+      <h1>{{items.title}}</h1>
+    </div>
+    <div class="select-exercise-attr">
+      <p><b>User:</b> {{items.username}}</p>
+    </div>
+    <div class="select-exercise-attr">
+      <p><b>Intensity of Training:</b> {{items.intensity}}</p>
+    </div>
+    <div class="select-exercise-description">
+      <p><b>Beschreibung des Trainings:</b></p>
+      <p>{{items.description | safe}}</p>
+    </div>
+    <div class="select-exercise-btn">
+      <a class="btn btn-light" href="{{ url_for('exercise_page') }}">Back to Exercises</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

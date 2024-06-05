@@ -1,0 +1,205 @@
+.home-container{
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.home-text{
+    background-color: white;
+    height: 600px;
+    margin-left: 140px;
+}
+
+.home-png{
+    background-color: #303030;
+    height: 600px;
+}
+
+.home-button{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    width: 100%;
+}
+
+.home-border{
+    width: 100%;
+    background-color: #263238;
+    height: 200px;
+}
+
+.home-border-white{
+    width: 100%;
+    background-color: white;
+    height: 300px;
+}
+
+.home-big-png{
+    height: 800px;
+    width: 100%;
+    background-image: url("/static/png/gym_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-title{
+    padding-top: 250px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+}
+
+.home-title-little{
+    padding-top: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.home-motivation{
+    padding-top: 120px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+.home-icon{
+    color: white;
+    font-size: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.login-container{
+    width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 800px;
+}
+
+.login{
+    padding-top: 150px;
+}
+
+.login-png{
+    background-image: url("/static/png/gym_log_tiny2.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exercise-container{
+    background-color: #263238;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 300px;
+}
+
+.exercise-title{
+    padding-left: 100px;
+    padding-top: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.exercise-single{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.exercise-attr {
+    padding-top: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.exercise-button{
+    margin-top: 12px;
+}
+
+.exercise-seperator{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 1px;
+    background-color: white;
+}
+
+.exercise-head{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: #303030;
+}
+
+.new-exercise-formlength{
+    width: 80%;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.new-exercise-user{
+    width: 80%;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.exercise-form{
+    padding-top: 60px;
+}
+
+.new-exercise-select{
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.new-exercise-button{
+    width: 20%;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.new-exercise-container{
+    margin-bottom: 100px;
+}
+
+.target-exercise-container{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #263238;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 300px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    min-height: 600px;
+}
+
+.select-exercise-title{
+    margin-bottom: 30px;
+}
+
+.select-exercise-attr{
+    margin-left: 35px;
+}
+
+.select-exercise-description{
+    margin-left: 35px;
+    margin-top: 60px;
+}
+
+.select-exercise-btn{
+    margin-top: 230px;
+}
