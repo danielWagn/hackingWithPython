@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Login Page
+{% endblock %}
+
+{% block content %}
+<body class="text-center">
+<div class="container new-exercise-container">
+<form method="POST" class="form-register" action="/new_exercise" style="color:black">
+
+    <div>
+        <h1 class="h3 mb-3 font-weight-normal text-left" style="margin-top: 50px;">
+            Please Create your Exercise
+        </h1>
+    </div>
+    <div class="row exercise-form">
+        <div class="col-4 text-left">
+            <label for="Intensity" class="">Intensity of Training</label>
+            <br>
+            <select class="form-select new-exercise-select" id="Intensity" name="Intensity" aria-label="Default select example">
+                <option selected>Select a Intensity</option>
+                <option value="Hartes Training">Hartes Training</option>
+                <option value="Mittleres Training">Mittleres Training</option>
+                <option value="Leichtes Training">Leichtes Training</option>
+            </select>
+        </div>
+        <div class="col-4 text-left">
+            <label for="Username" class="">Username</label>
+            <br>
+            <input type="text" id="Username" name="Username" class="new-exercise-user">
+        </div>
+        <div class="col-12 text-left" style="margin-top: 30px">
+            <label for="Title" class="">Title</label>
+            <br>
+            <input type="text" id="Title" name="Title" class="new-exercise-formlength">
+        </div>
+        <div class="col-12 text-left" style="margin-top: 30px">
+            <label for="Description" class="">Description</label>
+            <br>
+            <textarea class="new-exercise-formlength" id="Description" name="Description" rows="3" style="height: 250px"></textarea>
+        </div>
+        <div class="col-12 text-left" style="margin-top: 30px">
+            <br>
+            <button type="submit" class="btn btn-dark new-exercise-button">Enter</button>
+        </div>
+    </div>
+
+</form>
+</div>
+</body>
+
+{% endblock %}
